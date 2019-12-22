@@ -1,0 +1,12 @@
+   <!-- <img class="title-image" src="/assets/captainamerica.svg" width="200" height="100" style="margin-left: 9%;margin-top: -18%;"  id="2" (click)="onClick($event)"/>
+    <img class="title-image" src="/assets/empty.png" style="margin-left: 9%;width: 83%;margin-top: -6%;" id="3" (click)="onClick($event)"/>
+    <img class="title-image" src="/assets/blackpanther.svg" width="200" height="100" style="margin-left: 9%;margin-top: -7%;" id="4"  (click)="onClick($event)"/>
+    <img class="title-image" src="/assets/ironman.svg" width="200" height="100" style="margin-left: 9%;margin-top: -19%;" id="5" (click)="onClick($event)"/>
+    <img class="title-image" src="/assets/doctorstrange.svg" width="200" height="100" style="margin-left: 9%;margin-top: -18%"  id="6" (click)="onClick($event)"/>
+    <img class="title-image" src="/assets/blackwidow.svg" width="200" height="100" style="margin-left: 9%;    margin-top: -18%;"  id="7" (click)="onClick($event)"/>
+    <img class="title-image" src="/assets/empty.png" style="margin-left: 9%;width: 83%;margin-top: -8%;" id="8" (click)="onClick($event)"/>
+    <img class="title-image" src="/assets/empty.png" style="margin-left: 9%;width: 83%;margin-top: 3%;" id="9" (click)="onClick($event)"/>
+    <img class="title-image" src="/assets/hawkeye.svg" width="200" height="100" style="margin-left: 9%;" id="10" (click)="onClick($event)" />
+    <img class="title-image" src="/assets/empty.png" style="margin-left: 9%;width: 83%;" id="11" (click)="onClick($event)"/>
+    <img class="title-image" src="/assets/thor.svg" width="200" height="100" style="margin-left: 9%;" id="12" (click)="onClick($event)" />  
+    <img class="title-image" src="/assets/empty.png" style="margin-left: 9%;width: 83%;" id="13" (click)="onClick($event)"/> -->

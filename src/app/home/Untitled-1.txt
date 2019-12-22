@@ -1,0 +1,14 @@
+maja mad bye
+
+maga ultra legend o nenu 
+
+super idea thanks maga ok gn c ya
+
+
+ for(let i = 1; i< 14; i++){
+            var result = this.qwerty.find(obj => {
+              return obj.position === i
+            });
+            if(result != undefined) this.toprinted.push(result);
+            else this.toprinted.push({position: i, img: "empty.png"});
+          }

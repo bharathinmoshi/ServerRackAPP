@@ -1,28 +1,40 @@
+
 <ion-header *ngFor="let item of toprinted">
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button  defaultHref="home"></ion-back-button>
+    </ion-buttons>
     <ion-title>{{item.row_name}}</ion-title>
     <span style="margin-left: 6%;">{{item.status}}</span>
   </ion-toolbar>
 </ion-header>
 
+
 <ion-content>
-<div  *ngFor="let item of toprinted" style="background-color: dimgrey;">
-  <img class="title-image" src="/assets/{{item.img}}" width="200" height="100" style="margin-left: 9%;" id="1" (click)="onClick($event)"/>
+<div  *ngFor="let item of toprinted" >
+  <img class="title-image" src="/assets/{{item.img}}" width="200" height="100" style="margin-left: 21%;" id="1" (click)="onClick($event)"/>
 <ion-list>
   <ion-item>
-    <ion-label>{{item.position}}</ion-label>
+    <ion-label>POSITION</ion-label>
+    <p>{{item.position}}</p>
   </ion-item>
   <ion-item>
-    <ion-label>{{item.real_name}}</ion-label>
+    <ion-label>REAL NAME</ion-label>
+    <p>{{item.real_name}}</p>
   </ion-item>
   <ion-item>
-    <ion-label>{{item.fans}}</ion-label>
+    <ion-label>FANS</ion-label>
+    <p>{{item.fans}}</p>
   </ion-item>
   <ion-item>
-    <ion-label>{{item.connection}}</ion-label>
+    <ion-label>CONNECTIONS</ion-label>
+    <p>{{item.connection}}</p>
   </ion-item>
   <ion-item>
-    <ion-label>{{item.type}}</ion-label>
+    <ion-label>TYPE</ion-label>
+    <p>
+      {{item.type}}
+    </p>
   </ion-item>
 </ion-list>
 </div>
